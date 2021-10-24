@@ -27,7 +27,7 @@ namespace Parcial__programación
                     Console.WriteLine("Por favor ingrese el nombre del producto que desea adquirir");
                     datos = Console.ReadLine().ToLower();
 
-                    if (datos == "chocolate" && "chocolate" == productos[i])
+                    if (datos == productos[i] && productos[i] == productos[i])
                     {
                         Console.Write($"El producto que buscas es: {productos[i]}, el cual tiene un precio de {precios[i]} cop\n");
                         Console.WriteLine("¿Deseas comprar este producto?");
